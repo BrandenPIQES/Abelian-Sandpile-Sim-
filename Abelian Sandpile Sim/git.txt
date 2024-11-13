@@ -1,0 +1,59 @@
+commit c601b3bc1b00118cc8dd172840ed0a467cb4b4a5
+Author: phathutshedzo <ntspha021@myuct.ac.za>
+Date:   Sun Aug 11 10:30:25 2024 +0200
+
+    modified ParallelAutomaton.java and changed the threshold from 100 to 10000
+
+commit f9032f1870ce5182e253109536b533569fed8bd0
+Author: phathutshedzo <ntspha021@myuct.ac.za>
+Date:   Sun Aug 11 10:26:45 2024 +0200
+
+    added all the grid sizes used to test programs
+
+commit 9f53f367b9716f6920b6c3f669ada3c32e97d4cf
+Author: phathutshedzo <ntspha021@myuct.ac.za>
+Date:   Tue Aug 6 15:07:31 2024 +0200
+
+    made changes to the makefile line 17, had a spelling error
+
+commit be83b0f5ba3dce35cd3d16e6f219d4ac037fc345
+Author: phathutshedzo <ntspha021@myuct.ac.za>
+Date:   Tue Aug 6 09:18:21 2024 +0200
+
+    added a makefile that runs the parallel soulution with default 65 by 65 grid and the output on parallel65by65.pgn
+
+commit f9f43b3c891da078c7f1a5d11f486faad85cce22
+Author: phathutshedzo <ntspha021@myuct.ac.za>
+Date:   Tue Aug 6 09:12:10 2024 +0200
+
+    removed initial parallel try and its modified grid, and left the actual parallel solution in the parallelAbelianSandpile package
+
+commit cc768781b69ec7a589536af867fb4cdd66eb5cf5
+Author: phathutshedzo <ntspha021@myuct.ac.za>
+Date:   Sat Aug 3 04:31:12 2024 +0200
+
+    Created ParallelAutomation with an Inner class UpdateAction that extends Recursive action and computes grids in parallel
+
+commit cd142517c0d06d42332b00e86ddd261f13e11a9b
+Author: phathutshedzo <ntspha021@myuct.ac.za>
+Date:   Sat Aug 3 04:24:01 2024 +0200
+
+    Created a new Grid class with a different implementation of the update method
+
+commit e102e7264cbeea338d3ec9ff51e39971d452df01
+Author: phathutshedzo <ntspha021@myuct.ac.za>
+Date:   Thu Aug 1 07:55:30 2024 +0200
+
+    added the main method to Parallel solution, added tick tock methods to time the running time
+
+commit 8afe20d082e3807bb70900b89525494766cd11a4
+Author: phathutshedzo <ntspha021@myuct.ac.za>
+Date:   Wed Jul 31 22:05:33 2024 +0200
+
+    1. AutomatonSimulation(serial) is not edited  2. Added attribues, contructor, readArrayFromCSV(copied from serial), and the compute method to the ParallelAutomatonSim
+
+commit 22e05224377ead268f3d5da152d15eda0ad9f5a4
+Author: phathutshedzo <ntspha021@myuct.ac.za>
+Date:   Wed Jul 31 14:10:44 2024 +0200
+
+    added given files and an additional file for the parallel solution
